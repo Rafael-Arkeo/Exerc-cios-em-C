@@ -32,27 +32,26 @@ int main()
 		cont ++;
 	}
 
+	
+	printf("\n");	
+	
+	
+	media = (soma / 3);
+
+	printf("Aluno:Nota\n");
+
+
 	int i;
 	
 	for (i = 0; i < 3; i++)
 	{
-		printf("Nome:%s\nNota:%0.2f\n",alunos[i].nome,alunos[i].nota);
+		printf("%s:%0.2f\n",alunos[i].nome,alunos[i].nota);
 		
 	}
-	printf("\n");
+	
 
-	media = (soma / 3);
-
-	printf("%0.2f",media);
-	
-	
-	
-	
-	
+	printf("A media geral da turma é:%0.2f\n",media);
 	
 	return 0;
 	
-
-
-
 }

@@ -24,7 +24,7 @@ int main(void){
 	printf("Seja bem vindo,%s!\n",nome);
 	
 	
-	return 0;
+	
 
 
 

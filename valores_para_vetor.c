@@ -1,7 +1,5 @@
-brincando_no_c;
-
 #include <stdio.h>
-#include <stdlib.h>
+
 
 int main(){
     
