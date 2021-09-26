@@ -19,7 +19,7 @@ int main()
 
     scanf("%s", palavra2);
 
-    printf("%s\a\n%s\n", palavra1, palavra2);
+    
 
     if (comparaStrings(palavra1, palavra2))
     {
