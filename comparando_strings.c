@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 
-char palavra1[11],palavra2[11];
+
 
 
 
@@ -9,7 +9,9 @@ int main()
 
 {
 
-    _Bool comparaStrings(char si[], char s2[]);
+    char palavra1[11],palavra2[11];
+
+    _Bool comparaStrings(char s1[], char s2[]);
 
     
     printf("Digite uma palavra:");
@@ -21,6 +23,32 @@ int main()
 
     
 
+    if (comparaStrings(palavra1, palavra2))
+    {
+        printf("As strings %s e %s são iguais!\a\n",palavra1,palavra2);
+    }
+    else
+    {
+        printf("As strings %s e %s não são iguais!\n",palavra1, palavra2);
+    }
+    
+    if (comparaStrings(palavra1, palavra2))
+    {
+        printf("As strings %s e %s são iguais!\a\n",palavra1,palavra2);
+    }
+    else
+    {
+        printf("As strings %s e %s não são iguais!\n",palavra1, palavra2);
+    }
+    
+    if (comparaStrings(palavra1, palavra2))
+    {
+        printf("As strings %s e %s são iguais!\a\n",palavra1,palavra2);
+    }
+    else
+    {
+        printf("As strings %s e %s não são iguais!\n",palavra1, palavra2);
+    }
     if (comparaStrings(palavra1, palavra2))
     {
         printf("As strings %s e %s são iguais!\a\n",palavra1,palavra2);
