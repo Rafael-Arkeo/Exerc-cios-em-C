@@ -1,10 +1,6 @@
 #include <stdio.h>
 
 
-
-
-
-
 int main()
 
 {
@@ -32,40 +28,8 @@ int main()
         printf("As strings %s e %s não são iguais!\n",palavra1, palavra2);
     }
     
-    if (comparaStrings(palavra1, palavra2))
-    {
-        printf("As strings %s e %s são iguais!\a\n",palavra1,palavra2);
-    }
-    else
-    {
-        printf("As strings %s e %s não são iguais!\n",palavra1, palavra2);
-    }
-    
-    if (comparaStrings(palavra1, palavra2))
-    {
-        printf("As strings %s e %s são iguais!\a\n",palavra1,palavra2);
-    }
-    else
-    {
-        printf("As strings %s e %s não são iguais!\n",palavra1, palavra2);
-    }
-    if (comparaStrings(palavra1, palavra2))
-    {
-        printf("As strings %s e %s são iguais!\a\n",palavra1,palavra2);
-    }
-    else
-    {
-        printf("As strings %s e %s não são iguais!\n",palavra1, palavra2);
-    }
-    
-    
-
+   
     return 0;
-
-    
-    
-    
-
 
 }
 
@@ -91,9 +55,4 @@ _Bool comparaStrings(char s1[], char s2[])
         return 0;
     }
     
-    
-    
-
-
-
 }

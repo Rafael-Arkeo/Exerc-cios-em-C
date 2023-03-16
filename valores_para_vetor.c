@@ -1,11 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
 typedef struct lista{
 	char palavra[50];
 	int chave;
 	struct lista *proximo;
 }lista;
+
+
 int main(){
     
     lista *vetor;
